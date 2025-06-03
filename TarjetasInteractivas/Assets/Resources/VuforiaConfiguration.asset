@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2067402452, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: VuforiaConfiguration
+  m_EditorClassIdentifier: 
+  vuforia:
+    vuforiaLicenseKey: AfuKT/7/////AAABmbvLVKwFl0UTpBSRQfpPTMEBRKCsxL2SKSXdlgy/kE1706H6PY2ZlcjuwSm1s2GJ67NQWcp2doni9xvFoHUTh381pTmdZ8LA9sA1ms2YVY7yBMYEt9qc3RzcOGvwTu9dT5yf4SxdbDEo4X4x8Vl8MnBbqRv8ukKiLsUmBp41aBfjG0du45xB0Js7nMipshNw7hzzsQ2tcUX6+j3QvsoJ1FZk3pjbT02CbCj4Gn9MNn9h++lJZuSKeCImonWbYodtfTYskAmt6BKBrdyqNKkM+9iI/vEtB4STzosjsyp4j+XIgcWCWlLvDkq2SBb1hz4KtJYWLtNqwmj0+XrVyoDrw+z1BB8tUNgTktCsVem9wWNb
+    ufoLicenseKey: QVEzaHF2UC8vLy8vQUFBQUtJdlVnNjdBR1U5emlsQS96alFGemxRcjdrNFA5dzhzc0VuOTRZbVVwbVl1SDhFQjF2d0FHN0ZvTzkxUWUxYTMya1lJUThKOVUrWUFjR0VqMEIrS1hnV2Z3TUdkVjgyMSt2bHdTL0RreWpITmtxMDN4Y3ZnL1ByZUlnTGpzSnBsd0ZMalFacGx2b29VNlFDY0dhVHZ4TGRRSG90ZW9Jb0d2Q0MvQWpOV0FkcG9RWmd6enNSa0ZVMVJlUVNqR3lCNjl2LzBSL0huQzZjdVF3eTZYVXhaeExUc2NMbzg4QXJrTzVyNzFCeGI4QWpiSCs1R3E5K0t6c1UxZWIzSzJvd01JOUZaLzRBaGQrK3FMa1lvVjdqWDMyL1ptZUxtN2ttR0IwU1NtRlN0RFhGUHlRTXoydFJrR1RlY01xVmRlSEkzMXBiUDZmU3pLaThiSkNTTTB0OFFpa0NiMVE1RFh0RHJVMGpKRVErMXE0QlA=
+    delayedInitialization: 0
+    cameraFocusModeSetting: 2
+    cameraDeviceModeSetting: -1
+    maxSimultaneousImageTargets: 1
+    virtualSceneScaleFactor: 1
+    modelTargetRecoWhileExtendedTracked: 1
+    shareRecordingsInITunes: 0
+    logLevel: 0
+    version: 11.2.4
+    eulaAcceptedVersions: '{"Values":["10.29","0.0","11.0","11.2"]}'
+  database:
+    disableModelExtraction: 0
+  plugins:
+    pluginDirectory: asset://Vuforia
+  shaders:
+    depthMaskShader: {fileID: 4800000, guid: 9894afa5f3a5e4bbca625981beb1b20e, type: 3}
+    outlineShader: {fileID: 4800000, guid: 88d3b6b5cf364476ca39fcec255331b1, type: 3}
+    unlitTransparentShader: {fileID: 10750, guid: 0000000000000000f000000000000000, type: 0}
+  runtimeResources:
+    register: {fileID: 11400000, guid: caeba6ecda451416c803389918ddea4a, type: 2}
+  videoBackground:
+    numDivisions: 2
+    videoBackgroundShader: {fileID: 4800000, guid: 144dfca22ac584ade9e538e24a5ddded, type: 3}
+    unlitShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+    videoBackgroundEnabled: 1
+  deviceTracker:
+    autoStartTracker: 1
+    arcoreRequirement: 1
+    autoImportArcore: 1
+    thirdPartyARCoreClientDetected: 0
+  playmode:
+    mRecordingPath: D:/Nitro 5/Documents/Trabajos de la Universidad/9 Noveno Semestre
+      2025 - 1/REALIDAD VIRTUAL Y AUMENTADA/Trabajo final/AR/VuforiaSession-20250521-123256.mp4
+    playModeType: 0
+    mSimulatorInputActionAsset: {fileID: -944628639613478452, guid: eae7022f5cfd04e8189b1f372421b225, type: 3}
+  webcam:
+    renderTextureLayer: 30
+  packageInformation:
+    ARFoundationVersion: 
